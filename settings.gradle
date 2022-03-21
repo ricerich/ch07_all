@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "ch07_all"
+include ':app'
+include ':ex01_option_menu'
+include ':ex02_context_menu'
+include ':ex03_dialog_1'
+include ':ex04_dialog_login'
